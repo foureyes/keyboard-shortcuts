@@ -1,4 +1,4 @@
-# Windows 10 Shorcuts
+# Windows 10 Keyboard Shortcuts
 
 ## Vim in WSL
 
