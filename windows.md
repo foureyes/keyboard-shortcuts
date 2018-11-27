@@ -14,6 +14,7 @@ vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR
 " paste from buffer
 map <C-v> :r ~/.vimbuffer<CR>
 ```
+## Emoji
 
 ### Emoji Keyboard
 
