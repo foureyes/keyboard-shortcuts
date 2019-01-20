@@ -56,3 +56,8 @@ light locker issue w/ unlock
 * switch tty
 * ctrl + alt + function key (other than f2 or f7)
 * then go back to f2 or f7
+
+mount sd card (exfat) on startup
+-----
+* `sudo blkid`
+* `UUID=3732-3034 /media/joe/3732-3034               exfat   defaults,auto,umask=000,users,rw 0 0`
