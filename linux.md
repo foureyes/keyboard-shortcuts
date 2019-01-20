@@ -1,7 +1,15 @@
 natural scroll
 -----
 
-`synclient VertScrollDelta=-58`
+* `synclient VertScrollDelta=-58`
+* add to startup
+
+add scrollwheel
+-----
+* `xinput list`
+* `xinput list-props 19` "libinput Natural Scrolling Enabled (528)"
+* `xinput set-prop 19 "528" 1`
+* add to startup
 
 disable keyboard
 -----
