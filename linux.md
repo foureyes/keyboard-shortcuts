@@ -69,3 +69,21 @@ mount sd card (exfat) on startup
 -----
 * `sudo blkid`
 * `UUID=3732-3034 /media/joe/3732-3034               exfat   defaults,auto,umask=000,users,rw 0 0`
+
+emoji
+-----
+packages:
+
+* ibus
+* ibus-gtk
+* ibus-gtk3
+* ibus-table
+
+```
+sudo apt install ibus
+git clone https://github.com/salty-horse/ibus-uniemoji.git
+cd ibus-uniemoji
+sudo make install
+ibus restart
+```
+see [how-to](https://hk.saowen.com/a/250f4270055aaa3ddeeaed38c981f4f3e1c8dff159f274c5e114722a6353453f)
