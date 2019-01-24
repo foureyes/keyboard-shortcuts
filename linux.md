@@ -72,6 +72,42 @@ mount sd card (exfat) on startup
 
 emoji
 -----
+### display
+
+Get emoji font if u don't already have it (for example xubuntu):
+
+`sudo apt-get install fonts-noto-color-emoji`
+
+For Chrome/Firefox: in `~/.config/fontconfig/conf.d/01-emoji.conf`:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <alias>
+    <family>serif</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+</fontconfig>
+```
+
+
+### write
+
 packages:
 
 * ibus
@@ -86,4 +122,9 @@ cd ibus-uniemoji
 sudo make install
 ibus restart
 ```
+
+* run: `ibus-setup`
+* add unimoji
+
+
 see [how-to](https://hk.saowen.com/a/250f4270055aaa3ddeeaed38c981f4f3e1c8dff159f274c5e114722a6353453f)
