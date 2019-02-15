@@ -16,3 +16,9 @@
 
 * `ctrl p` international kb
 * `ctrl n` international
+
+### Escape key
+
+* `ctrl + [`
+
+### No osk for crostini yet
