@@ -11,3 +11,8 @@
 * `alt + 1`
 * `ctrl + search (caps or windows key) + up arrow`
 * `ctrl + search (caps or windows key) + down arrow`
+
+### Up / down arrow
+
+* `ctrl p` international kb
+* `ctrl n` international
